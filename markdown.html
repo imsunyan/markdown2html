@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown 转 HTML 参考</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-bottom: 10px;
+      }
+      blockquote {
+        border-left: 4px solid #ccc;
+        padding-left: 10px;
+        color: #666;
+      }
+      pre {
+        background: #f4f4f4;
+        padding: 10px;
+        overflow-x: auto;
+      }
+      code {
+        background: #eee;
+        padding: 2px 5px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      ul {
+        list-style-type: disc;
+      }
+      ol {
+        list-style-type: decimal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>h1 标题</h1>
+    <h2>h2 标题</h2>
+    <h3>h3 标题</h3>
+    <h4>h4 标题</h4>
+    <h5>h5 标题</h5>
+    <h6>h6 标题</h6>
+
+    <p>这是一个段落标签 <code>&lt;p&gt;</code>。</p>
+    <p>这里是 <strong>&lt;strong&gt; 加粗文本</strong>。</p>
+    <p>这里是 <em>&lt;em&gt; 斜体文本</em>。</p>
+    <p>这里是 <del>&lt;del&gt; 删除线</del>。</p>
+    <p>这里是 <u>&lt;u&gt; 下划线</u>（部分解析器支持）。</p>
+    <hr />
+
+    <blockquote>这是一个 blockquote 引用标签。</blockquote>
+
+    <ul>
+      <li>无序列表项 1</li>
+      <li>无序列表项 2</li>
+    </ul>
+
+    <ol>
+      <li>有序列表项 1</li>
+      <li>有序列表项 2</li>
+    </ol>
+
+    <pre>
+        <code>
+            &lt;pre&gt; 和 &lt;code&gt; 代码块示例
+        </code>
+    </pre>
+
+    <p>这里是一个 <a href="#">&lt;a&gt; 超链接</a>。</p>
+    <p>
+      这里是一个图片：<img
+        src="https://via.placeholder.com/150"
+        alt="示例图片"
+      />
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>表头 1</th>
+          <th>表头 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>数据 1</td>
+          <td>数据 2</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>任务列表（某些解析器支持）：</p>
+    <ul>
+      <li><input type="checkbox" /> 任务 1</li>
+      <li><input type="checkbox" checked /> 任务 2</li>
+    </ul>
+  </body>
+</html>
